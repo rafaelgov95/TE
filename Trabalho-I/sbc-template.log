@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.6.24)  24 JUL 2017 04:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.6.24)  27 JUL 2017 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -217,44 +217,18 @@ LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
 
 [1
 
-]
-File: fig1.jpg Graphic file (type QTm)
- <use  "fig1.jpg" >
-LaTeX Font Info:    Try loading font information for TU+phv on input line 103.
-LaTeX Font Info:    No file TUphv.fd. on input line 103.
-
-
-LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 103.
-
-
-LaTeX Font Warning: Font shape `TU/phv/bx/n' undefined
-(Font)              using `TU/phv/m/n' instead on input line 103.
-
-File: fig2.jpg Graphic file (type QTm)
-<use  "fig2.jpg" > [2]
-Underfull \hbox (badness 2556) in paragraph at lines 152--155
-\TU/phv/m/n/12 Bibliographic references must be unambiguous and uniform. We rec
-om-
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 152--155
-\TU/phv/m/n/12 mend giving the author names references in brackets, e.g. [[]],
- []
-
-(./sbc-template.bbl) [3] (./sbc-template.aux)
+] [2] (./sbc-template.bbl) [3] (./sbc-template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2145 strings out of 493068
- 28524 string characters out of 6137720
- 103251 words of memory out of 5000000
- 6054 multiletter control sequences out of 15000+600000
+ 2130 strings out of 493068
+ 28378 string characters out of 6137720
+ 109191 words of memory out of 5000000
+ 6045 multiletter control sequences out of 15000+600000
  6408 words of font info for 27 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 30i,9n,28p,263b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,28p,739b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on sbc-template.pdf (3 pages).
