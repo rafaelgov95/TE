@@ -1,0 +1,19 @@
+\begin{thebibliography}{}
+
+\bibitem[Bierman et~al. 2014]{bierman2014understanding}
+Bierman, G., Abadi, M., and Torgersen, M. (2014).
+\newblock Understanding typescript.
+\newblock In {\em European Conference on Object-Oriented Programming}, pages
+  257--281. Springer.
+
+\bibitem[Ehrenfeucht and Rozenberg 1992]{ehrenfeucht1992angular}
+Ehrenfeucht, A. and Rozenberg, G. (1992).
+\newblock Angular 2-structures.
+\newblock {\em Theoretical Computer Science}, 92(2):227--248.
+
+\bibitem[Lemos 2017]{codeangular}
+Lemos, G. (2017).
+\newblock Angular 4.0 e suas novas features! e agora, josé?
+\newblock {\em code4coders}, 1(21):1.
+
+\end{thebibliography}
