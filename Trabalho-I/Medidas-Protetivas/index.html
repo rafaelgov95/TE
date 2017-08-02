@@ -30,275 +30,94 @@
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-   
-
- 
-        <div id="FormSection" class="row" >
 
 
-          <div id="content" class="col s12 m9 l10" >
-            <form>
-              <ul id="top" class="collapsible" data-collapsible="expandable">
-                <li>
-                  <!-- TOP OF HEIRARCHY ---------------------------------------------------------------------------------------------------------------->
-                  <div id="heirarchyTop" class="collapsible-header active"><i class="material-icons" style="color: red">warning</i>Top of Heirarchy</div>
-                  <div class="collapsible-body">
-                    <br />
-                    <div class="row">
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">First Name</span>
-                        <input placeholder="First Name" id="FirstName" type="text" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">Last Name</span>
-                        <input placeholder="Last Name" id="LastName" type="text" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">Date Of Birth</span>
-                        <input id="DOB" type="date" class="datepicker" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">Email</span>
-                        <input placeholder="Email" id="Email" type="email" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">First Name</span>
-                        <input placeholder="First Name" id="FirstName" type="text" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">Last Name</span>
-                        <input placeholder="Last Name" id="LastName" type="text" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">Date Of Birth</span>
-                        <input id="DOB" type="date" class="datepicker" />
-                      </div>
-                      <div class="input-field col s12 m4 l3">
-                        <span class="fieldLabel">Email</span>
-                        <input placeholder="Email" id="Email" type="email" />
-                      </div>
+
+      <div id="FormSection" class="row">
+
+
+        <div id="content" class="col s12 ">
+          <form>
+            <ul id="top" class="collapsible" data-collapsible="expandable">
+              <li>
+                <!-- TOP OF HEIRARCHY ---------------------------------------------------------------------------------------------------------------->
+                <div id="heirarchyTop" class="collapsible-header active"><i class="material-icons" style="color: red">warning</i>Top of Heirarchy</div>
+                <div class="collapsible-body">
+                  <br />
+                  <div class="row">
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">First Name</span>
+                      <input placeholder="First Name" id="FirstName" type="text" />
                     </div>
-
-                    <!-- COMPANY ---------------------------------------------------------------------------------------------------------------->
-                    <div class="nestedCollapsible">
-                      <ul id="subsection1" class="collapsible" data-collapsible="expandable">
-                        <li>
-                          <div class="collapsible-header active">Company
-
-                            <div class="right" style="50px">
-                              <a class="btn-floating btn tooltipped collapsibleFindButton green" data-position="bottom" data-delay="50" data-tooltip="Find"><i class="material-icons">find_in_page</i></a>&nbsp;
-                              <a class="btn-floating tooltipped collapsibleClearButton red" data-position="bottom" data-delay="50" data-tooltip="Clear"><i class="material-icons">clear</i></a>
-                            </div>
-
-                          </div>
-                          <div class="collapsible-body">
-                            <br />
-                            <div class="row">
-                              <div class="input-field col s12 m12 l12">
-                                <div class="row">
-                                  <div class="col s12 m12 l6">
-                                    <div class="card blue-grey darken-1">
-                                      <div class="card-content white-text">
-                                        <span class="card-title">ACME Corporation</span>
-                                        <p>Makers of anvils, catapults, rockets, fireworks, and almost anything else imaginable.</p>
-                                      </div>
-                                      <div class="card-action">
-                                        <a href="https://en.wikipedia.org/wiki/Acme_Corporation" target="_blank">Visit Website</a>
-                                        <a href="http://studiofacilities.warnerbros.com/" target="_blank">Find A Location Near You</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Last Name</span>
+                      <input placeholder="Last Name" id="LastName" type="text" />
                     </div>
-
-
-
-                    <!-- SELECTIONS ---------------------------------------------------------------------------------------------------------------->
-                    <div class="nestedCollapsible">
-                      <ul id="subsection1" class="collapsible" data-collapsible="expandable">
-                        <li>
-                          <div class="collapsible-header active">Selections</div>
-                          <div class="collapsible-body">
-                            <br />
-                            <div class="row">
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Favorite Color</span>
-                                <select>
-                              <option value="">Choose One</option>
-                              <option value="r">Red</option>
-                              <option value="g">Green</option>
-                              <option value="b">Blue</option>
-                              <option value="y">Yellow</option>
-                              <option value="bl">Black</option>
-                              <option value="w">White</option>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Pick One</span>
-                                <select>
-                              <option value="">Favorite Food</option>
-                              <optgroup label="Chinese">
-                                <option value="efy">Egg Foo Young</option>
-                                <option value="rp">Roast Pork</option>
-                                <option value="lm">Lo Mein</option>
-                                <option value="ws">Wonton Soup</option>
-                                <option value="d">Dumplings</option>
-                                <option value="cc">Chinese Chicken</option>
-                              </optgroup>
-                              <optgroup label="Italian">
-                                <option value="p">Pizza</option>
-                                <option value="l">Lasagna</option>
-                                <option value="s">Spaghetti</option>
-                                <option value="r">Ravioli</option>
-                                <option value="cm">Chicken Marsala</option>
-                              </optgroup>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Programming Languages</span>
-                                <select multiple>
-                              <option value="" disabled selected>Select Your Langauges</option>
-                              <option value="js">JavaScript</option>
-                              <option value="p">Python</option>
-                              <option value="cs">C Sharp</option>
-                              <option value="cpp">C ++</option>
-                              <option value="j">Java</option>
-                              <option value="bf">BrainF*</option>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Favorite Actor</span>
-                                <select>
-                              <option value="" disabled selected>Choose One</option>
-                              <option data-icon="http://fillmurray.com/50/50" class="left circle" value="murray">Bill Murray</option>
-                              <option data-icon="http://placecage.com/50/50" class="left circle" value="cage">Nicholas Cage</option>
-                              <option data-icon="http://stevensegallery.com/50/50" class="left circle" value="segal">Steven Segal</option>
-                              <option data-icon="http://place-hoff.com/50/50" class="left circle" value="hasslehoff">David Hasslehoff</option>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Favorite Color</span>
-                                <select>
-                              <option value="">Choose One</option>
-                              <option value="r">Red</option>
-                              <option value="g">Green</option>
-                              <option value="b">Blue</option>
-                              <option value="y">Yellow</option>
-                              <option value="bl">Black</option>
-                              <option value="w">White</option>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Pick One</span>
-                                <select>
-                              <option value="">Favorite Food</option>
-                              <optgroup label="Chinese">
-                                <option value="efy">Egg Foo Young</option>
-                                <option value="rp">Roast Pork</option>
-                                <option value="lm">Lo Mein</option>
-                                <option value="ws">Wonton Soup</option>
-                                <option value="d">Dumplings</option>
-                                <option value="cc">Chinese Chicken</option>
-                              </optgroup>
-                              <optgroup label="Italian">
-                                <option value="p">Pizza</option>
-                                <option value="l">Lasagna</option>
-                                <option value="s">Spaghetti</option>
-                                <option value="r">Ravioli</option>
-                                <option value="cm">Chicken Marsala</option>
-                              </optgroup>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Programming Languages</span>
-                                <select multiple>
-                              <option value="" disabled selected>Select Your Langauges</option>
-                              <option value="js">JavaScript</option>
-                              <option value="p">Python</option>
-                              <option value="cs">C Sharp</option>
-                              <option value="cpp">C ++</option>
-                              <option value="j">Java</option>
-                              <option value="bf">BrainF*</option>
-                            </select>
-                              </div>
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Favorite Actor</span>
-                                <select>
-                              <option value="" disabled selected>Choose One</option>
-                              <option data-icon="http://fillmurray.com/50/50" class="left circle" value="murray">Bill Murray</option>
-                              <option data-icon="http://placecage.com/50/50" class="left circle" value="cage">Nicholas Cage</option>
-                              <option data-icon="http://stevensegallery.com/50/50" class="left circle" value="segal">Steven Segal</option>
-                              <option data-icon="http://place-hoff.com/50/50" class="left circle" value="hasslehoff">David Hasslehoff</option>
-                            </select>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Date Of Birth</span>
+                      <input id="DOB" type="date" class="datepicker" />
                     </div>
-
-                    <!-- LONG TEXT SECTION ---------------------------------------------------------------------------------------------------------------->
-                    <div class="nestedCollapsible">
-                      <ul id="subsection1" class="collapsible" data-collapsible="expandable">
-                        <li>
-                          <div class="collapsible-header active">Long Text Section</div>
-                          <div class="collapsible-body">
-                            <br />
-                            <div class="row">
-                              <div class="input-field col s12 m12 l12">
-                                <span class="fieldLabel">Explain below your understanding of the meaning of life:</span>
-                                <textarea id="meaningOfLife" class="materialize-textarea" length="1000" maxlength="1000"></textarea>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Email</span>
+                      <input placeholder="Email" id="Email" type="email" />
                     </div>
+                    <!-- <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">First Name</span>
+                      <input placeholder="First Name" id="FirstName" type="text" />
+                    </div>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Last Name</span>
+                      <input placeholder="Last Name" id="LastName" type="text" />
+                    </div>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Date Of Birth</span>
+                      <input id="DOB" type="date" class="datepicker" />
+                    </div>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Email</span>
+                      <input placeholder="Email" id="Email" type="email" />
+                    </div> -->
+                  </div>
 
-                    <!-- ADDRESSES ---------------------------------------------------------------------------------------------------------------->
-                    <div class="nestedCollapsible">
-                      <ul id="subsection1" class="collapsible" data-collapsible="expandable">
-                        <li>
-                          <div class="collapsible-header active">Address 1
+                  <!-- ADDRESSES ---------------------------------------------------------------------------------------------------------------->
+                  <div class="nestedCollapsible">
+                    <ul id="subsection1" class="collapsible" data-collapsible="expandable">
+                      <li>
+                        <div class="collapsible-header active">Address 1
 
-                            <div class="right" style="50px">
-                              <a class="btn-floating btn tooltipped collapsibleCopyButton blue" data-position="bottom" data-delay="50" data-tooltip="copy"
-                                data-copyId="100"><i class="material-icons">content_copy</i></a>&nbsp;
-                              <a class="btn-floating btn tooltipped collapsibleAddButton green" data-position="bottom" data-delay="50" data-tooltip="add"
-                                data-addId="101"><i class="material-icons">add</i></a>&nbsp;
-                              <a class="btn-floating tooltipped collapsibleRemoveButton red" data-position="bottom" data-delay="50" data-tooltip="remove"
-                                data-removeId="102"><i class="material-icons">remove</i></a>
-                            </div>
+                          <div class="right" style="50px">
+                            <a class="btn-floating btn tooltipped collapsibleCopyButton blue" data-position="bottom" data-delay="50" data-tooltip="copy"
+                              data-copyId="100"><i class="material-icons">content_copy</i></a>&nbsp;
+                            <a class="btn-floating btn tooltipped collapsibleAddButton green" data-position="bottom" data-delay="50" data-tooltip="add"
+                              data-addId="101"><i class="material-icons">add</i></a>&nbsp;
+                            <a class="btn-floating tooltipped collapsibleRemoveButton red" data-position="bottom" data-delay="50" data-tooltip="remove"
+                              data-removeId="102"><i class="material-icons">remove</i></a>
                           </div>
+                        </div>
 
-                          <div class="collapsible-body">
+                        <div class="collapsible-body">
 
-                            <br />
-                            <div class="row">
+                          <br />
+                          <div class="row">
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Address 1</span>
-                                <input placeholder="Address 1" id="Address1" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Address 1</span>
+                              <input placeholder="Address 1" id="Address1" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Address 2</span>
-                                <input placeholder="Address 2" id="Address2" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Address 2</span>
+                              <input placeholder="Address 2" id="Address2" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">City</span>
-                                <input placeholder="City" id="City" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">City</span>
+                              <input placeholder="City" id="City" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">State</span>
-                                <select name="state">
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">State</span>
+                              <select name="state">
                               <option value="" selected disabled>Select One</option>
                               <option value="AL">Alabama</option>
                               <option value="AK">Alaska</option>
@@ -352,66 +171,56 @@
                               <option value="WI">Wisconsin</option>
                               <option value="WY">Wyoming</option>
                             </select>
-                              </div>
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Zip</span>
-                                <input placeholder="Zip" id="Zip" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Zip</span>
+                              <input placeholder="Zip" id="Zip" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Telephone</span>
-                                <input placeholder="Telephone" id="Telephone" type="tel" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Telephone</span>
+                              <input placeholder="Telephone" id="Telephone" type="tel" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Email 
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Email 
                               <span class="right-align">
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldCopyButton" data-tooltip="copy"><i class="material-icons fieldIcon" style="color: green">content_copy</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldAddButton" data-tooltip="add"><i class="material-icons fieldIcon" style="color: green">add_circle_outline</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldRemoveButton" data-tooltip="remove"><i class="material-icons fieldIcon" style="color: red">remove_circle_outline</i></a>&nbsp;
                               </span>
-                                </span>
-                                <input placeholder="Email" id="Email" type="email" />
-                              </div>
-
+                              </span>
+                              <input placeholder="Email" id="Email" type="email" />
                             </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="collapsible-header active attached"><i class="material-icons" style="color: red">warning</i>Address 2
 
-                            <div class="right" style="50px">
-                              <a class="btn-floating btn tooltipped collapsibleCopyButton blue" data-position="bottom" data-delay="50" data-tooltip="copy"
-                                data-copyId="200"><i class="material-icons">content_copy</i></a>&nbsp;
-                              <a class="btn-floating btn tooltipped collapsibleAddButton green" data-position="bottom" data-delay="50" data-tooltip="add"
-                                data-addId="201"><i class="material-icons">add</i></a>&nbsp;
-                              <a class="btn-floating tooltipped collapsibleRemoveButton red" data-position="bottom" data-delay="50" data-tooltip="remove"
-                                data-removeId="202"><i class="material-icons">remove</i></a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                     
+                        <div class="collapsible-body">
+                          <br />
+                          <div class="row">
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Address 1</span>
+                              <input placeholder="Address 1" id="Address1" type="text" />
                             </div>
-                          </div>
-                          <div class="collapsible-body">
-                            <br />
-                            <div class="row">
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Address 1</span>
-                                <input placeholder="Address 1" id="Address1" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Address 2</span>
+                              <input placeholder="Address 2" id="Address2" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Address 2</span>
-                                <input placeholder="Address 2" id="Address2" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">City</span>
+                              <input placeholder="City" id="City" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">City</span>
-                                <input placeholder="City" id="City" type="text" />
-                              </div>
-
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">State</span>
-                                <select name="state">
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">State</span>
+                              <select name="state">
                               <option value="" selected disabled>Select One</option>
                               <option value="AL">Alabama</option>
                               <option value="AK">Alaska</option>
@@ -465,76 +274,66 @@
                               <option value="WI">Wisconsin</option>
                               <option value="WY">Wyoming</option>
                             </select>
-                              </div>
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Zip</span>
-                                <input placeholder="Zip" id="Zip" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Zip</span>
+                              <input placeholder="Zip" id="Zip" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Telephone</span>
-                                <input placeholder="Telephone" id="Telephone" type="tel" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Telephone</span>
+                              <input placeholder="Telephone" id="Telephone" type="tel" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Email 
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Email 
                               <span class="right-align">
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldCopyButton" data-tooltip="copy"><i class="material-icons fieldIcon" style="color: green">content_copy</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldAddButton" data-tooltip="add"><i class="material-icons fieldIcon" style="color: green">add_circle_outline</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldRemoveButton" data-tooltip="remove"><i class="material-icons fieldIcon" style="color: red">remove_circle_outline</i></a>&nbsp;
                               </span></span>
-                                <input placeholder="Email" id="Email" type="email" />
-                              </div>
+                              <input placeholder="Email" id="Email" type="email" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Email 
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Email 
                               <span class="right-align">
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldCopyButton" data-tooltip="copy"><i class="material-icons fieldIcon" style="color: green">content_copy</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldAddButton" data-tooltip="add"><i class="material-icons fieldIcon" style="color: green">add_circle_outline</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldRemoveButton" data-tooltip="remove"><i class="material-icons fieldIcon" style="color: red">remove_circle_outline</i></a>&nbsp;
                               </span></span>
-                                <input placeholder="Email" id="Email" type="email" value="mommyatgodaddydotcom" />
-                                <span class="bubble z-depth-2" style="font-size: small; color:red">Email address is invalid.</span>
-                              </div>
-
+                              <input placeholder="Email" id="Email" type="email" value="mommyatgodaddydotcom" />
+                              <span class="bubble z-depth-2" style="font-size: small; color:red">Email address is invalid.</span>
                             </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="collapsible-header active attached">Address 3
 
-                            <div class="right" style="50px">
-                              <a class="btn-floating btn tooltipped collapsibleCopyButton blue" data-position="bottom" data-delay="50" data-tooltip="copy"
-                                data-copyId="300"><i class="material-icons">content_copy</i></a>&nbsp;
-                              <a class="btn-floating btn tooltipped collapsibleAddButton green" data-position="bottom" data-delay="50" data-tooltip="add"
-                                data-addId="301"><i class="material-icons">add</i></a>&nbsp;
-                              <a class="btn-floating tooltipped collapsibleRemoveButton red" data-position="bottom" data-delay="50" data-tooltip="remove"
-                                data-removeId="302"><i class="material-icons">remove</i></a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                  
+                        <div class="collapsible-body">
+                          <br />
+                          <div class="row">
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Address 1</span>
+                              <input placeholder="Address 1" id="Address1" type="text" />
                             </div>
-                          </div>
-                          <div class="collapsible-body">
-                            <br />
-                            <div class="row">
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Address 1</span>
-                                <input placeholder="Address 1" id="Address1" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Address 2</span>
+                              <input placeholder="Address 2" id="Address2" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Address 2</span>
-                                <input placeholder="Address 2" id="Address2" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">City</span>
+                              <input placeholder="City" id="City" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">City</span>
-                                <input placeholder="City" id="City" type="text" />
-                              </div>
-
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">State</span>
-                                <select name="state">
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">State</span>
+                              <select name="state">
                               <option value="" selected disabled>Select One</option>
                               <option value="AL">Alabama</option>
                               <option value="AK">Alaska</option>
@@ -588,99 +387,119 @@
                               <option value="WI">Wisconsin</option>
                               <option value="WY">Wyoming</option>
                             </select>
-                              </div>
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Zip</span>
-                                <input placeholder="Zip" id="Zip" type="text" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Zip</span>
+                              <input placeholder="Zip" id="Zip" type="text" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Telephone</span>
-                                <input placeholder="Telephone" id="Telephone" type="tel" />
-                              </div>
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Telephone</span>
+                              <input placeholder="Telephone" id="Telephone" type="tel" />
+                            </div>
 
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Email 
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Email 
                               <span class="right-align">
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldCopyButton" data-tooltip="copy"><i class="material-icons fieldIcon" style="color: green">content_copy</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldAddButton" data-tooltip="add"><i class="material-icons fieldIcon" style="color: green">add_circle_outline</i></a>&nbsp;
                                 <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldRemoveButton" data-tooltip="remove"><i class="material-icons fieldIcon" style="color: red">remove_circle_outline</i></a>&nbsp;
                               </span></span>
-                                <input placeholder="Email" id="Email" type="email" />
-                              </div>
-
+                              <input placeholder="Email" id="Email" type="email" />
                             </div>
+
                           </div>
-                        </li>
-                      </ul>
-                    </div>
-
-
-                    <!-- RADIO BUTTONS AND CHECKBOXES ---------------------------------------------------------------------------------------------------------------->
-                    <div class="nestedCollapsible">
-                      <ul id="subsection1" class="collapsible" data-collapsible="expandable">
-                        <li>
-                          <div class="collapsible-header active">Radio Button and Checkbox Groups</div>
-                          <div class="collapsible-body">
-                            <br />
-                            <div class="row">
-
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Pick One:</span>
-                                <div>
-                                  <input name="group1" type="radio" id="test1" />
-                                  <label for="test1">Strongly Agree</label>
-                                  <br />
-                                  <input name="group1" type="radio" id="test2" />
-                                  <label for="test2">Somewhat Agree</label>
-                                  <br />
-                                  <input name="group1" type="radio" id="test3" />
-                                  <label for="test3">Neither Agree Or Disagree</label>
-                                  <br />
-                                  <input name="group1" type="radio" id="test4" />
-                                  <label for="test4">Somewhat Disagree</label>
-                                  <br />
-                                  <input name="group1" type="radio" id="test5" />
-                                  <label for="test5">Strongly Disagree</label>
-                                  <br /><br />
-                                </div>
-                              </div>
-
-                              <div class="input-field col s12 m4 l3">
-                                <span class="fieldLabel">Check All That Apply:</span>
-                                <div>
-                                  <input type="checkbox" id="check1" />
-                                  <label for="check1">I like apples</label>
-                                  <br />
-                                  <input type="checkbox" id="check2" />
-                                  <label for="check2">I like oranges</label>
-                                  <br />
-                                  <input type="checkbox" id="check3" />
-                                  <label for="check3">I like bananas</label>
-                                  <br />
-                                  <input type="checkbox" id="check4" />
-                                  <label for="check4">I like peaches</label>
-                                  <br />
-                                  <input type="checkbox" id="check5" />
-                                  <label for="check5">I like cherries</label>
-                                  <br /><br />
-                                </div>
-                              </div>
-
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-
+                        </div>
+                      </li>
+                    </ul>
                   </div>
-                </li>
-              </ul>
-            </form>
-          </div>
-          <!-- end content section -->
-        </div> 
+
+
+                  <!-- LONG TEXT SECTION ---------------------------------------------------------------------------------------------------------------->
+                  <div class="nestedCollapsible">
+                    <ul id="subsection1" class="collapsible" data-collapsible="expandable">
+                      <li>
+                        <div class="collapsible-header active">Long Text Section</div>
+                        <div class="collapsible-body">
+                          <br />
+                          <div class="row">
+                            <div class="input-field col s12 m12 l12">
+                              <span class="fieldLabel">Explain below your understanding of the meaning of life:</span>
+                              <textarea id="meaningOfLife" class="materialize-textarea" length="1000" maxlength="1000"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+
+
+                  <!-- RADIO BUTTONS AND CHECKBOXES ---------------------------------------------------------------------------------------------------------------->
+                  <div class="nestedCollapsible">
+                    <ul id="subsection1" class="collapsible" data-collapsible="expandable">
+                      <li>
+                        <div class="collapsible-header active">Radio Button and Checkbox Groups</div>
+                        <div class="collapsible-body">
+                          <br />
+                          <div class="row">
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Pick One:</span>
+                              <div>
+                                <input name="group1" type="radio" id="test1" />
+                                <label for="test1">Strongly Agree</label>
+                                <br />
+                                <input name="group1" type="radio" id="test2" />
+                                <label for="test2">Somewhat Agree</label>
+                                <br />
+                                <input name="group1" type="radio" id="test3" />
+                                <label for="test3">Neither Agree Or Disagree</label>
+                                <br />
+                                <input name="group1" type="radio" id="test4" />
+                                <label for="test4">Somewhat Disagree</label>
+                                <br />
+                                <input name="group1" type="radio" id="test5" />
+                                <label for="test5">Strongly Disagree</label>
+                                <br /><br />
+                              </div>
+                            </div>
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Check All That Apply:</span>
+                              <div>
+                                <input type="checkbox" id="check1" />
+                                <label for="check1">I like apples</label>
+                                <br />
+                                <input type="checkbox" id="check2" />
+                                <label for="check2">I like oranges</label>
+                                <br />
+                                <input type="checkbox" id="check3" />
+                                <label for="check3">I like bananas</label>
+                                <br />
+                                <input type="checkbox" id="check4" />
+                                <label for="check4">I like peaches</label>
+                                <br />
+                                <input type="checkbox" id="check5" />
+                                <label for="check5">I like cherries</label>
+                                <br /><br />
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <!-- end content section -->
+      </div>
 
       <div id="Section1" class="row" style="height:100%;  padding-top:4.7rem; display:none;">
         <div class="content">
