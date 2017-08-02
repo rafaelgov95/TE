@@ -29,3 +29,7 @@
     });
     
     Materialize.toast('', 4000) // 4000 is the duration of the toast
+
+  $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
+        

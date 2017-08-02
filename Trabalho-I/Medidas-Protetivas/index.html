@@ -16,8 +16,17 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Medidas Protetivas</a>
+
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Inicio</a></li>
+        <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Menu</a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!">Fotos</a></li>
+          <li><a href="#!">Mensagens</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">Fotos</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>Salvar</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>Fotos</a></li>
+        </ul>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -42,7 +51,7 @@
               <li>
                 <!-- TOP OF HEIRARCHY ---------------------------------------------------------------------------------------------------------------->
                 <div id="heirarchyTop" class="collapsible-header active"><i class="material-icons" style="color: red">success</i>Formulário Cadastro</div>
-                <div class="collapsible-body" >
+                <div class="collapsible-body">
                   <br />
                   <div class="row ">
                     <div class="input-field col s12 m4 l3">
@@ -76,14 +85,14 @@
                       <li>
                         <div class="collapsible-header active">Endereço
 
-                          <div class="right" style="50px">
+                          <!-- <div class="right" style="50px">
                             <a class="btn-floating btn tooltipped collapsibleCopyButton blue" data-position="bottom" data-delay="50" data-tooltip="copy"
                               data-copyId="100"><i class="material-icons">copiar</i></a>&nbsp;
                             <a class="btn-floating btn tooltipped collapsibleAddButton green" data-position="bottom" data-delay="50" data-tooltip="add"
                               data-addId="101"><i class="material-icons">adicionar</i></a>&nbsp;
                             <a class="btn-floating tooltipped collapsibleRemoveButton red" data-position="bottom" data-delay="50" data-tooltip="remove"
                               data-removeId="102"><i class="material-icons">remover</i></a>
-                          </div>
+                          </div> -->
                         </div>
 
                         <div class="collapsible-body">
@@ -151,49 +160,49 @@
                   <div class="nestedCollapsible">
                     <ul id="subsection1" class="collapsible" data-collapsible="expandable">
                       <li>
-                        <div class="collapsible-header active">Qual tipos de agressões já sofreu</div>
+                        <div class="collapsible-header active">Qual tipos de agressões já sofreu?</div>
                         <div class="collapsible-body">
                           <br />
                           <div class="row">
 
                             <div class="input-field col s12 m4 l3">
-                              <span class="fieldLabel">Pick One:</span>
+                              <span class="fieldLabel">Bicuda</span>
                               <div>
                                 <input name="group1" type="radio" id="test1" />
-                                <label for="test1">Strongly Agree</label>
+                                <label for="test1">Enforcada</label>
                                 <br />
                                 <input name="group1" type="radio" id="test2" />
-                                <label for="test2">Somewhat Agree</label>
+                                <label for="test2">Presta Atenção</label>
                                 <br />
                                 <input name="group1" type="radio" id="test3" />
-                                <label for="test3">Neither Agree Or Disagree</label>
+                                <label for="test3">Soco na Cara</label>
                                 <br />
                                 <input name="group1" type="radio" id="test4" />
-                                <label for="test4">Somewhat Disagree</label>
+                                <label for="test4">Soco no Ruim</label>
                                 <br />
                                 <input name="group1" type="radio" id="test5" />
-                                <label for="test5">Strongly Disagree</label>
+                                <label for="test5">Facada</label>
                                 <br /><br />
                               </div>
                             </div>
 
                             <div class="input-field col s12 m4 l3">
-                              <span class="fieldLabel">Check All That Apply:</span>
+                              <span class="fieldLabel">Qual Frequência?</span>
                               <div>
                                 <input type="checkbox" id="check1" />
-                                <label for="check1">I like apples</label>
+                                <label for="check1">Todos Dias</label>
                                 <br />
                                 <input type="checkbox" id="check2" />
-                                <label for="check2">I like oranges</label>
+                                <label for="check2">Toda Hora</label>
                                 <br />
                                 <input type="checkbox" id="check3" />
-                                <label for="check3">I like bananas</label>
+                                <label for="check3">Cedo</label>
                                 <br />
                                 <input type="checkbox" id="check4" />
-                                <label for="check4">I like peaches</label>
+                                <label for="check4">Antes de Deitar</label>
                                 <br />
                                 <input type="checkbox" id="check5" />
-                                <label for="check5">I like cherries</label>
+                                <label for="check5">Ao Levantar</label>
                                 <br /><br />
                               </div>
                             </div>
@@ -257,9 +266,9 @@
       </div>
     </div>
 
-    
-    <div class="modal-footer">     
-       <a href="#!"  onclick="Materialize.toast('Formulario Enviado Com Sucesso', 4000) " class="modal-action modal-close waves-effect waves-green btn-flat">Enviar</a>
+
+    <div class="modal-footer">
+      <a href="#!" onclick="Materialize.toast('Formulario Enviado Com Sucesso', 4000,'rounded') " class="modal-action modal-close waves-effect waves-green btn-flat">Enviar</a>
 
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
     </div>
